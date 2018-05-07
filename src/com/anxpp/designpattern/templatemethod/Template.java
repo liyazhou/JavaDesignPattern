@@ -5,8 +5,9 @@ public class Template extends AbstractTemplate {
 	void getData() {
 		data = "data";
 	}
+
 	@Override
 	void calcData() {
-		data = (String)data+data;
+		data = (String) data + data;
 	}
 }
